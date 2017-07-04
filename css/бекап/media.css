@@ -1,0 +1,351 @@
+@media screen and (max-width: 769px) and (orientation: portrait){
+.burger{
+  float: right;
+  display: block;
+  position: relative;
+  right: 5vw;
+  height: 5vh;
+  width: 2em;
+  top: 3.3pt;
+}
+.navbar{
+	display: none;
+}
+.stick_margin{
+  margin-top: 4.8pt;
+}
+.stick_invisible{
+  border-top: 2px solid white;
+  position: relative;
+  top: -1px;
+    -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+ box-shadow: 0px 0px 2px white;
+}
+.stick_i{
+      border-top: 2px solid white;
+ position: relative;
+ top: 1px;
+   -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+ box-shadow: 0px 0px 2px white;
+}
+.stick{
+	margin-top: 5pt;
+  border-top: 2px solid white;
+    -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+box-shadow: 0px 0px 2px white;
+}
+.index_header {
+  height: 34pt !important;
+}
+.brand_text{
+  font-size: 21pt;
+  line-height: 27pt;
+}
+.color333{
+  border-color: #333;
+  box-shadow: none;
+}
+.t140{
+  -webkit-transform: rotate(-40deg);
+     -moz-transform: rotate(-40deg);
+      -ms-transform: rotate(-40deg);
+       -o-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+  -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+}
+.t40{
+  -webkit-transform: rotate(40deg);
+     -moz-transform: rotate(40deg);
+      -ms-transform: rotate(40deg);
+       -o-transform: rotate(40deg);
+          transform: rotate(40deg);
+  -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+}
+.navbar{
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  padding: 0;
+  right: 0;
+  top: 34pt;
+  text-align: center;
+  background-color: rgba(51,51,51,0.5);
+  box-shadow: 0px 0px 2px;
+}
+.navbar_li{
+  height: 10vh;
+  margin-left: 0;
+}
+li {
+  display: block;
+}
+.navbar .navbar_li {
+  font-size: 3.1vh;
+}
+.nav_text{
+  position: relative;
+  top: 3vh;
+}
+.navbar2{
+  border-top: 1px solid;
+  border-color: rgba(255,255,255, 0.3);
+  border-radius: 1px;
+}
+.navbar3{
+  border-top: 1px solid;
+  border-color: rgba(255,255,255, 0.3);
+  border-radius: 1px;
+}
+.header_pre_index{
+  top: 20vh;
+}
+.header_out_index{
+  top: 25vh;
+}
+.header_index{
+  top: 20vh;
+}
+.index_hr{
+  top: 22.5vh;
+}
+ul.navbar{
+  z-index: 9999;
+}
+.contacts_header {
+font-size: 6.5vh;
+  left: 8vw;
+  top: 5vh;
+}
+.contacts_r {
+  position: relative;
+  right: 8vw;
+  float: right;
+  width: 84vw;
+  top: 7vh;
+  border-radius: 5px;
+  height: 64vh;
+  background-color: rgba(200,200,200, 0.5);
+}
+.contacts_describe {
+    color: #222;
+    font-family: "sa";
+    font-size: 3vh;
+    position: relative;
+    top: 3.5vh;
+    left: 5vw;
+    bottom: 3.5vh;
+    display: block;
+    width: 77vw;
+    font-weight: bold;
+}
+.contacts_table {
+    position: relative;
+    top: 6vh;
+    left: 5vw;
+}
+#feedback-form {
+  display: none;
+      width: 79vw;
+    padding-top: 3.5vh;
+    padding-left: 3.5vw;
+    padding-right: 2.5vw;
+    padding-bottom: 3.5vh;
+    border-radius: 5px;
+    background-color: rgba(241,241,241, 0.7);
+    position: relative;
+    box-shadow: 0px 0px 2px rgba(241,241,241, 1);
+    top: 5vh;
+    height: 54vh;
+    margin-top: 5vh;
+    left: 8vw;
+    float: left;
+    font-family: "sa";
+        font-size: 3.2vh;
+}
+#feedback-form [required] {
+    box-sizing: border-box;
+    margin: 2px 0 2% 0;
+    padding: 2%;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+    width: 78vw;
+    height: 6vh;
+}
+#feedback-form [type="submit"] {
+    padding: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+    background: #669acc;
+    color: #fff;
+    font-family: "sa";
+    width: auto;
+    margin-top: 1vh;
+    font-size: 3vh;
+    height: auto;
+}
+.contacts_button_life{
+    display: block;
+    float: left;
+    position: relative;
+    top: 12vh;
+    height: 5vh;
+    border-radius: 5px;
+    left: 4vw;
+    font-size: 2.65vh;
+    width: 36.5vw;
+    vertical-align: middle;
+    color: white;
+    font-family: "sa";
+    padding-top: 1.5vh;
+    text-align: center;
+    background-color: rgb(237,24,71);
+  -webkit-box-shadow: 0px 0px 2px rgb(237,24,71);
+        box-shadow: 0px 0px 2px rgb(237,24,71);
+        text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.6);
+}
+.contacts_button_kyivstar::after{
+  content: 'Позвонить vodafone';
+}
+.contacts_button_life::after{
+  content: 'Позвонить life:)';
+}
+.contacts_button_kyivstar{
+    display: block;
+    float: right;
+    position: relative;
+    top: 12vh;
+    height: 5vh;
+    border-radius: 5px;
+    right: 4vw;
+    font-size: 2.65vh;
+    width: 36.5vw;
+    vertical-align: middle;
+    color: white;
+    font-family: "sa";
+    padding-top: 1.5vh;
+    text-align: center;
+    background-color: rgb(32,173,227);
+    -webkit-box-shadow: 0px 0px 2px rgb(32,173,227);
+            box-shadow: 0px 0px 2px rgb(32,173,227);
+        text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.6);
+}
+
+.blog_menu{
+  display: none;
+}
+.blog_content {
+    width: calc(90vw - 40pt);
+}
+.corner_button{
+    position: fixed;
+    top: 40vh;
+    right: 0;
+    height: 49pt;
+    width: 25pt;
+    z-index: 9999;
+    border-radius: 50px 0 0 50px;
+    background-color: #333;
+      -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+       -o-transition: 0.3s;
+          transition: 0.3s;
+}
+.content_article {
+  padding-right: 0;
+}
+.corner_button_width{
+  margin-right: calc(39vw + 30pt) !important;
+  -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+       -o-transition: 0.3s;
+          transition: 0.3s;
+}
+.blog_menu {
+    float: right;
+    position: fixed;
+    top: 0vh;
+    right: 0vw;
+    width: 40vw;
+    background-color: #333;
+    padding: 50pt 15pt;
+    height: 110vh;
+}
+.blog_menu_string {
+    color: white;
+    width: 39vw;
+}
+}
+@media screen and (max-width: 420px) { 
+
+
+.contacts_header {
+    font-size: 6vh;
+}
+.contacts_describe {
+    font-size: 2.3vh;
+    width: 77vw;
+}
+.contacts_table_text {
+    font-size: 3vh;
+}
+
+.fa-vk {
+    font-size: 3.5vh;
+}
+.fa-envelope-o{
+      font-size: 3.5vh;
+}
+.fa-phone{
+      font-size: 3.5vh;
+}
+.contacts_r {
+    top: 7vh;
+}
+.contacts_button_life {
+top: 10vh;
+    left: 4vw;
+    font-size: 2.65vh;
+    width: 75.5vw;
+    float: none;
+    display: block;
+    position: relative;
+}
+.contacts_button_kyivstar {
+    top: 12vh;
+    font-size: 2.65vh;
+    width: 75.5vw;
+    float: none;
+    right: 0vw;
+    left: 4vw;
+    display: block;
+    position: relative;
+}
+
+
+ }

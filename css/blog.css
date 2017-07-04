@@ -1,0 +1,9 @@
+.index_header {
+    height: 23pt;
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 0px 2px;
+    z-index: 9999;
+}
